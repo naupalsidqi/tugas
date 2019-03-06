@@ -1,0 +1,472 @@
+html,body {
+ background-color: #e6e6e6;
+ padding: 0;
+ margin: 0;
+ height:1005;
+}
+
+*
+{
+	box-sizing:border-box;
+
+}
+
+.kolom1 {width:8.333%}
+.kolom2 {width:16.66%}
+.kolom3 {width:25%;}
+.kolom4 {width:33.33%;}
+.kolom5	{width:41.66%}
+.kolom6	{width:50%}
+.kolom7	{width:58.33%}
+.kolom8	{width:66.66%}
+.kolom9	{width:75%;}
+.kolom10 {width:83.33%}
+.kolom11 {width:91.66%}
+.kolom12 {width:100%}
+
+
+
+.header{
+  
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+.jalan{
+    float: left; 
+    text-decoration: none;
+    font-family: 'Buxton Sketch';
+    margin-left: 15px;
+    height: 50px;
+}
+
+.jalan a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 9px ;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.jalan a:hover {
+    background-color: white;
+    color: lightblue;
+}
+
+
+.font{
+    font-family: Ebrima;
+}
+
+.topnav {
+    overflow: hidden;
+    float: right;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px 8px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: #4b6cb7;
+    
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    width: 280px;
+    border: none;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+
+.wadaw{
+    text-decoration: none;
+}
+
+
+.logo{
+    height: 34px;
+    width: 30px;
+    margin-top: 7px;
+    float: right;
+    margin-right: 50px;
+}
+
+.gambar1{
+    height: 600px;
+    background: url(/images/film.jpeg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.bawah{
+    position: absolute;
+    bottom: 80px;
+    left: 35px;
+    color: white;
+}
+
+.btn {
+    border: none; 
+    color: white; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    z-index:-1;
+    text-decoration: none;
+}
+
+.kiri{
+    height: 250px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family:  Ebrima;
+}
+
+.kanan{
+    height: 250px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    background: url(/images/pilm.jpg) no-repeat center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.bromo {background-color: #2196F3;}
+.bromo:hover {background: #0b7dda;}
+
+.ayo {background: #ff0000;}
+
+.bar{
+    
+    margin-top: 20px;
+    height: 50px;
+    float: left;
+}
+
+.bir{
+    height: 50px;
+    margin-left: 50px;
+    font-family: Harrington;
+    font-size: 20px;
+}
+
+.gambar2{
+     border-style: none;
+    border-radius: 5px;
+    height: 300px;
+    float: left;
+    margin-left: 50px;
+     background: url(/images/pi.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.gambar3{
+     border-style: none;
+    border-radius: 5px;
+    height: 300px;
+    float: left;
+    margin-left: 30px;
+     background: url(/images/pet.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.gambar4{
+     border-style: none;
+    border-radius: 5px;
+    height: 300px;
+    float: left;
+    margin-left: 30px;
+         background: url(/images/thor.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.gambar5{
+    border-style: none;
+    border-radius: 5px;
+    height: 300px;
+    float: left;
+    margin-left: 30px;
+         background: url(/images/av.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.gambar6{
+     border-style: none;
+    border-radius: 5px;
+    height: 300px;
+    float: left;
+    margin-left: 30px;
+    background: url(/images/ar.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.dukung{
+    float: left;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: Ebrima;
+    height: 50px;
+    padding: 1px 50px;
+    background-color: #33FF8A;
+    color: white;
+}
+
+.footer{
+    
+    float: left;
+    height: 200px;
+    background-color: #313677;
+}
+
+.lokasi{
+
+    margin-left: 250px;
+    margin-top: 50px;
+    text-align: center;
+    float: left;
+    height: 100px;
+    color: white;
+    font-family: Ebrima;
+}
+
+.asp{
+
+    margin-top: 50px;
+    text-align: center;
+    float: left;
+    height: 100px;
+    color: white;
+    padding: 30px;
+    font-family: Ebrima;
+}
+
+.about{
+
+    margin-top: 50px;
+    text-align: center;
+    float: left;
+    height: 100px;
+    color: white;
+    font-family: Ebrima;
+}
+
+.day{
+    text-align: center;
+    float: left;
+    background-color: #363B7B;
+    color: white;
+    font-family: Ebrima;
+}
+
+.hr{
+    background-color: white;
+    height: 3px;
+    width: 65px;
+}
+
+.container {
+  position: relative; 
+}
+
+.container .content {
+  position: absolute;
+  border-radius: 5px; 
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%; 
+  padding: 10px; 
+}
+
+.garis{
+    font-family: Ebrima;
+}
+
+.garis a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: ;
+}
+
+.judul{font-size: 15px;}
+
+.isi{font-size: 12px;}
+
+.rajaampat{
+    height: 600px;
+    background: url(ampat.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.txtampat{
+    margin-top: 50px;
+    height: auto;
+    font-family: Ebrima;
+    margin-left: 25%;
+
+}
+
+.bali{
+    height: 600px;
+    background: url(mantap.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.bandung{
+    height: 600px;
+    background: url(bdg.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.bintan{
+    height: 600px;
+    background: url(btg.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.yogyakarta{
+    height: 600px;
+    background: url(jogja.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.malang{
+    height: 600px;
+    background: url(mlg.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.tips{
+    height: 600px;
+    background: url(dunia.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.orang{
+    height: 600px;
+    background: url(org.jpeg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.contact{
+     height: 600px;
+    background: url(contact.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+}
+
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.wadadaw {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
