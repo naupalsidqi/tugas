@@ -14,3 +14,16 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('kategori', function(){
+    return "halaman kategori" ;
+});
+
+Route::get('detailkategori/{id}', function($id){
+    return "halaman detail kategori" . $id;
+});
+
+Route::resource('kategori', 'KategoriController');
+
+Route::resource('kategori', 'KategoriController')->only(['index','show']);
+Route::resource('kategori', 'KategoriController')->only(['index','show']);
