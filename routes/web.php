@@ -23,6 +23,10 @@ Route::get('detailkategori/{id}', function($id){
     return "halaman detail kategori" . $id;
 });
 
+Route::get('master', function () {
+    return view('dashboard.index');
+});
+
 Route::resource('kategori', 'KategoriController');
 
 Route::resource('kategori', 'KategoriController')->only(['index','show']);
