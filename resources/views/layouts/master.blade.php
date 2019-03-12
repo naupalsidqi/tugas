@@ -25,8 +25,10 @@
     <title>Master</title>
 </head>
 <body style="background-color:#20c3ff;">
-<center><h4>Judul</h4></center>
-   <div class="kolom3"> @include('layouts.sidebar')</div>
-    <div class="kolom9">@yield('ashiap')</div>
+<center><b>Judul</b></center>
+<table border = "1" width="100%" height="470px">
+<tr>
+   <td style="width: 25%">@include('layouts.sidebar')</td>
+    <td>@yield('ashiap')</td>
 </body>
 </html>

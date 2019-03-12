@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('template', function () {
+    return view('dashboard.content');
+});
+
 Route::get('kategori', function(){
     return "halaman kategori" ;
 });

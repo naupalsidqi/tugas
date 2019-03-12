@@ -7,7 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-<br><br><br><br>
     <h3>sidebar</h3>
 </body>
 </html>
