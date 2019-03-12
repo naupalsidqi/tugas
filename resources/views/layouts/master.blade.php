@@ -25,6 +25,7 @@
     <title>Master</title>
 </head>
 <body style="background-color:#20c3ff;">
+<center><h4>Judul</h4></center>
    <div class="kolom3"> @include('layouts.sidebar')</div>
     <div class="kolom9">@yield('ashiap')</div>
 </body>

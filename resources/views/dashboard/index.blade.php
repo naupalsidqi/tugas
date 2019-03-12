@@ -9,8 +9,7 @@
 <body>
     @extends('layouts.master')
     @section('ashiap')
-        <h1>Aldiansyah Naupal Shidqi</h1>
-        content
+        <h1>Ini adalah Content</h1>
     @endsection
 </body>
 </html>
