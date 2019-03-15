@@ -35,3 +35,5 @@ Route::resource('kategori', 'KategoriController');
 
 Route::resource('kategori', 'KategoriController')->only(['index','show']);
 Route::resource('kategori', 'KategoriController')->only(['index','show']);
+
+Route::get('query', 'KategoriController@search');

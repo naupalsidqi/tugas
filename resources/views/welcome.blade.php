@@ -87,7 +87,7 @@
                 Nikmati Ribuan Koleksi Film dari Kami<br />
                 Anda Bisa Memesannya Dibawah Sini
             </h2>
-            <button class="btn bromo txt">Pesan Film</button></a>
+            <a href="kategori"><button class="btn bromo txt">Kategori Film</button></a>
         </div>
     </div>
 
