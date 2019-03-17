@@ -15,13 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('template', function () {
     return view('dashboard.content');
 });
 
-Route::get('kategori', function(){
-    return "halaman kategori" ;
-});
 
 Route::get('detailkategori/{id}', function($id){
     return "halaman detail kategori" . $id;
@@ -33,7 +31,13 @@ Route::get('master', function () {
 
 Route::resource('kategori', 'KategoriController');
 
-Route::resource('kategori', 'KategoriController')->only(['index','show']);
-Route::resource('kategori', 'KategoriController')->only(['index','show']);
 
 Route::get('query', 'KategoriController@search');
+
+Route::get('kategori.tambah','KategoriController@tambah');
+
+Route::post('kategori.store','KategoriController@store');
+
+Route::get('kategori.edit/{id}','KategoriController@edit');
+
+Route::get('kategori.hapus/{id}','KategoriController@hapus');

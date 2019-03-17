@@ -74,7 +74,7 @@
           <div class="box">
             <div class="box-header with-border">
               <h3 class="box-title">Tabel Kategori</h3>
-              <form action="{{ url('query') }}" method="GET">
+              <form action="{{ url('query') }}" method="GET" style="float :right">
                 <div class="box-tools">
                   <div class="input-group input-group-sm" style="width: 150px;">
                     <input type="text" name="q" class="form-control pull-right" placeholder="Search">
@@ -85,6 +85,7 @@
                   </form>
                 </div>
               </div>
+              <br><a href="kategori.tambah"> + Tambah Pegawai Baru</a>
             </div>
         
             <!-- /.box-header -->
@@ -93,19 +94,20 @@
                 <tr>
                   <th style="width: 10px">No</th>
                   <th>Nama Kategori</th>
-                  <th>Progress</th>
-                  <th style="width: 40px">Label</th>
+                  <th>Pilihan</th>
                 </tr>
                 <tr>
+                @php
+                  $no = 1;
+                @endphp
                 @foreach($kategori as $kategori)
-                  <td>{{$kategori->kategori_id}}</td>
+                  <td>{{$no++}}</td>
                   <td>{{$kategori->nama_kategori}}</td>
                   <td>
-                    <div class="progress progress-xs">
-                      <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
-                    </div>
-                  </td>
-                  <td><span class="badge bg-red">55%</span></td>
+				            <a href="kategori.edit/{{ $kategori->kategori_id }}" class=" btn btn-sm btn-primary">Edit</a>
+				            &nbsp;
+				            <a href="kategori.hapus/{{ $kategori->kategori_id }}" class="btn btn-sm btn-danger">Hapus</a>
+		            	</td>
                 </tr>
                 @endforeach
               </table>
